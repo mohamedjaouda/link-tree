@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+img {
+    position: relative;
+    bottom: 15px;
+}
+
+
+.links-box {
+    
+    text-align: center;
+    width: auto;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.904);
+    text-decoration: none;
+    position: relative;
+    top: 10%;
+    font-size: 28px;
+    letter-spacing: 5px;
+    
+}
+
+
+.instagram {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    height: 50px;
+    width: 400px;
+    border-radius: 40px;
+    color: white;
+}
+.instagram:hover {
+    box-shadow:0 6px 6px rgba(0, 0, 0, 0.541);
+    transition:0.2s;
+    cursor: pointer;
+    
+}
+
+.facebook {
+    height: 50px;
+    width: 400px;
+    border-radius: 40px;
+    color: white;
+}
+.facebook:hover {
+    cursor: pointer;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.541);
+    transition:0.2s;
+}
+
+
+.twitter {
+    height: 50px;
+    width: 400px;
+    border-radius: 40px;
+    color: white;
+}.twitter:hover {
+    cursor: pointer;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.541);
+    transition:0.2s;
+}
+
+
+.github {
+    height: 50px;
+    width: 400px;
+    border-radius: 40px;
+    color: white;
+}.github:hover {
+    cursor: pointer;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.541);
+    transition:0.2s;
+}
+
+
+.linkedIn {
+    height: 50px;
+    width: 400px;
+    border-radius: 40px;
+    color: white;
+    transition: ease-in-out;
+}.linkedIn:hover {
+    cursor: pointer;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.541);
+    transition: 0.2s;
+}
+
+.icons-box{
+    position: relative;
+    top: 3%;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+}
+
+.icons-box > li > a {
+    color: rgba(255, 255, 255, 0.76);
+    transition: ease-in-out !important;
+}
+
+
+ul > li .ho-fb:hover {
+    transform: scale(1.5,1.5);
+    transition: 0.2s;
+    cursor: pointer;
+    color: #1877F2;
+}
+ul > li  .ho-ig:hover {
+    transform: scale(1.5,1.5);
+    transition: 0.2s;
+    cursor: pointer;
+    color: rgb(255, 174, 174);
+}
+ul > li  .ho-tw:hover {
+    transform: scale(1.5,1.5);
+    transition: 0.2s;
+    cursor: pointer;
+    color: #00AECE;
+}
+ul > li .ho-gh:hover {
+    transform: scale(1.5,1.5);
+    transition: 0.2s;
+    cursor: pointer;
+    color: #181818;
+}
+ul > li .ho-li:hover {
+    transform: scale(1.5,1.5);
+    transition: 0.2s;
+    cursor: pointer;
+    color: #0E76A8;
+}
+
+
+@media all and (max-width:500px) {
+
+    body {
+        height: 100vh;
+    }
+
+    a {
+        font-size: 20px;
+        position: relative;
+        top: 20%;
+    }
+
+    .facebook {
+        width:300px;
+        position: relative;
+    }
+    .instagram {
+        width:300px;
+        position: relative;
+    }
+    .twitter {
+        width:300px;
+        position: relative;
+    }
+    .github {
+        width:300px;
+        position: relative;
+    }
+    .linkedIn {
+        width:300px;
+        position: relative;
+    }
+
+    .icons-box {
+        gap: 20px;
+    }
+}
